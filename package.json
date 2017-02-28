@@ -1,0 +1,29 @@
+{
+  "name": "psa",
+  "version": "0.0.0-development",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jpnelson/psa.git"
+  },
+  "author": "Joshua Nelson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jpnelson/psa/issues"
+  },
+  "homepage": "https://github.com/jpnelson/psa#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^2.0.0",
+    "semantic-release": "^6.3.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
