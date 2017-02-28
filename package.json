@@ -28,5 +28,12 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "configstore": "^3.0.0",
+    "figlet": "^1.2.0",
+    "marked": "^0.3.6",
+    "marked-terminal": "^2.0.0"
   }
 }
