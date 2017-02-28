@@ -19,6 +19,9 @@
   "homepage": "https://github.com/jpnelson/psa#readme",
   "devDependencies": {
     "cz-conventional-changelog": "^2.0.0",
+    "eslint": "^3.16.1",
+    "eslint-config-airbnb-base": "^11.1.0",
+    "eslint-plugin-import": "^2.2.0",
     "semantic-release": "^6.3.2"
   },
   "config": {
